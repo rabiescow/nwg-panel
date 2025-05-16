@@ -1,0 +1,149 @@
+/***** SUGGESTED TO CHANGE CAREFULLY *****/
+
+/* Recommended if panel "height" unset or smaller then your theme default button height */
+button {
+    margin: 0px
+}
+
+/* SwayTaskBar and SwayWorkspaces use custom widgets, that need this and the next name
+   to highlight currently focused task / workspace. */
+#task-box {
+    padding-left: 4px;
+    padding-right: 20px;
+}
+
+#task-box-focused {
+    color: #CDD6F4;
+    background-color: #353749;
+    padding-left: 4px;
+    padding-right: 4px
+}
+
+#task-box-icon {
+    color: #f5c2e7;
+}
+
+/***** MODIFY TO YOUR TASTE *****/
+
+/* Sample button in sample config w/ no background nor border */
+#button-custom {
+    background: #1E1E2E;
+    border: 0
+}
+
+#cpubar {
+  color: #f5c2e7;
+}
+#cpuav {
+
+}
+#memory {
+  color: #94e2d5;
+}
+#cputemp {
+  color: #fab387;
+}
+#cputemp-icon {
+  color: #fab387;
+}
+#waypaper {
+  color: #CDD6F4;
+}
+
+/* Top panel in sample config uses this name */
+#panel-top {
+    background: #1E1E2E;
+    color: #CDD6F4
+}
+
+/* Bottom panel in sample config uses this name */
+#panel-bottom {
+    background: #1E1E2E;
+    color: #CDD6F4
+}
+
+/* Controls window in sample config uses this name */
+#controls-window {
+    /* border-radius: 15px; */
+    border-color: #bac2de;
+    border-width: 2px;
+    background: #45475a;
+    color: #bac2de;
+    
+}
+#controls-window slide {
+    color: #bac2de;
+}
+#controls-window scale value {
+    color: #bac2de;
+}
+
+/* Brightness slider popup window in sample config uses this name */
+#brightness-popup {
+    border-color: #bac2de;
+    border-width: 2px;
+    background: #45475a;
+    color: #bac2de;
+}
+#brightness-popup box {
+    padding: 15px;
+}
+
+/* Executors usually behave better in monospace fonts */
+#executor-label {
+    font-family: monospace
+}
+
+/* and so does the Clock */
+#clock {
+    font-family: monospace;
+    font-size: 16px
+}
+
+/* Sample executor-weather uses "css-name": "weather" */
+#weather {
+    font-size: 16px
+}
+
+/* dwl-tags module */
+#dwl-tag-box {
+	padding-top: 4px;
+	padding-bottom: 4px
+}
+
+#dwl-tag-occupied {
+	font-family: monospace;
+	color: #F9E2AF;
+    background-color: #BAC2DE;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+#dwl-tag-free {
+	font-family: monospace;
+	color: #F9E2AF;
+    background-color: #BAC2DE;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+#dwl-tag-urgent {
+	font-family: monospace;
+	color: #F38BA8;
+    background-color: #BAC2DE;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+#dwl-tag-selected {
+	border: solid 2px;
+	border-color: #89B4FA
+}
+
+#hyprland-workspaces {padding: 0px 0px 0px 15px;}
+#hyprland-workspaces-item {}
+#hyprland-workspaces-icon {}
+#hyprland-workspaces-name {}
+#workspace-occupied {}
+
+#waypaper {padding: 0px 0px 0px 0px; background:transparent;}
